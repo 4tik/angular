@@ -1,0 +1,9 @@
+<p class="btn btn-info">Title Case Using Custom Pipe</p>
+<div class="row">
+  <div class="col-md-6">
+    <input class="form-control" [(ngModel)]="inputValue"/>
+  </div>
+  <div class="col-md-6">
+    <p class="btn btn-primary">{{ inputValue | titleCast}}</p>
+  </div>
+</div>

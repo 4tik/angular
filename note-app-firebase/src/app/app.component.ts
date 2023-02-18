@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'favorite';
-  isFavorite = false;
-  onClick() {
-    this.isFavorite = !this.isFavorite;
-  }
+  title = 'note-app-firebase';
 }
